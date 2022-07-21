@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "android": "wdio run config/wdio.android.config.ts",
+    "ios": "wdio run config/wdio.ios.config.ts"
   },
   "keywords": [],
   "author": "",
