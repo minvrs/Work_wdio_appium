@@ -164,6 +164,9 @@ export const config: Options.Testrunner = {
         ui: 'bdd',
         timeout: 60000
     },
+
+    onPrepare : function (config, capabilities) {
+    },
     //
     // =====
     // Hooks

@@ -5,7 +5,7 @@ import { config } from './wdio.shared.config'
 config.port = 4723,
 
     config.specs = [
-        './test/**/*.ts'
+        './test/**/ios_login_tests.ts'
     ]
 
 config.capabilities = [{

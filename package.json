@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.20.7",
-    "appium": "^2.0.0-beta.40"
+    "appium": "^2.0.0-beta.40",
+    "chai-http": "^4.3.0"
   },
   "devDependencies": {
     "@wdio/appium-service": "^7.20.7",
